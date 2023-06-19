@@ -47,7 +47,7 @@ Para completar este ejercicio de prueba de Mysql, sigue los siguientes pasos:
         - cr: (conversion rate) calcularlo con la siguiente formula (total de conversions / total de clicks)*100 y redondearlo a 2 decimales
         - last_date: última fecha en que el usuario tuvo estadísticas dentro del rango filtrado. Fecha en formato año-mes-día (Y-M-D)
 
-## A modeo de test, llamando al método getStats('2022-10-01', '2022-10-15', 9000), la salida debe ser:
+## A modo de test, llamando al método getStats('2022-10-01', '2022-10-15', 9000), la salida debe ser:
 
     Array
     (
