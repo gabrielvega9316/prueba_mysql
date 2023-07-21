@@ -1,4 +1,26 @@
 # Bienvenido al test Mysql de Adoclic
+## Ejecucion
+
+Para ejecutar el test, sigue los siguientes pasos:
+
+1. Abre una terminal o consola en tu computadora.
+2. Posiciónate en el directorio del proyecto.
+3. Ejecuta el siguiente comando para iniciar la prueba:
+
+```sh
+php test.php
+```
+Asegúrate de tener instalado PHP en tu sistema para poder ejecutar el comando sin problemas.
+
+## Modificación de parámetros
+Si deseas modificar los parámetros de la prueba, puedes hacerlo editando el archivo test.php. Dentro de este archivo, encontrarás el siguiente código:
+```sh
+$userStats = new UserStats('2022-10-01', '2022-10-16', 9000);
+```
+Al modificar estos valores, podrás adaptar la prueba según los datos que desees analizar.
+
+
+## Challenge
 
 Para completar este ejercicio de prueba de Mysql, sigue los siguientes pasos:
 
